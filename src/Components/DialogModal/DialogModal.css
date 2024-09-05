@@ -1,0 +1,49 @@
+/* Dialog Modal */
+.modal {
+  cursor: pointer;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: scaleY(0);
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/erbs-lore-dcb3b.appspot.com/o/Animals%2F1920x1080.png?alt=media");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+
+  animation: fade-out 700ms forwards;
+}
+
+.modal[open] {
+  transform: scaleY(1);
+  z-index: 99;
+
+  animation: fade-in 700ms forwards;
+}
+
+.modal-content {
+  cursor: initial;
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 2em;
+  width: 45ch;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.modal-content p {
+  margin-bottom: 0;
+}
+
+.modal-content ul:last-child {
+  margin-bottom: 0;
+}

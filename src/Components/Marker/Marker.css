@@ -1,0 +1,46 @@
+.camp {
+  position: absolute;
+  cursor: pointer;
+  width: 25px;
+  height: 30px;
+  border-radius: 50%;
+
+  &:hover {
+    scale: 1.25;
+    z-index: 99;
+  }
+
+  img {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    border: 2px solid gray;
+  }
+}
+
+.camp[data-selected="true"] img {
+  opacity: 0.7;
+  border: 2px solid limegreen !important;
+}
+
+.camp[data-mutant="true"] img {
+  border: 2px solid purple;
+}
+
+.camp-info {
+  position: absolute;
+  bottom: 35px;
+  left: -40px;
+
+  color: #2a2a2a;
+  background-color: #f9f9f9;
+  border-radius: 1em;
+  width: 110px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}

@@ -1,0 +1,71 @@
+/* MUI Graphs */
+.data-grid {
+  background-color: #f9f9f9;
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+.data-grid[data-graph="pie"] {
+  background-color: transparent;
+}
+
+.zone-animals {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.animal-card {
+  --img-width: 64px;
+  position: relative;
+  border-radius: 1em;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+
+  img {
+    width: var(--img-width);
+    height: 100%;
+    background: linear-gradient(#e66465, #9198e5);
+  }
+
+  span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    color: #f9f9f9;
+    width: var(--img-width);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+.animal-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    hsl(0, 0%, 0%, 0),
+    hsl(0, 0%, 0%, 0),
+    hsl(0, 0%, 0%, 0),
+    hsl(0, 0%, 0%, 0.7)
+  );
+}
+
+.animal-card[data-idx="0"] {
+  display: none;
+}
+
+.zone-agg {
+  display: grid;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.zone-article {
+  display: grid;
+  grid-template-columns: 20ch 1fr;
+  gap: 1em;
+}

@@ -1,0 +1,122 @@
+/* Filter */
+.filter-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(36, 36, 36, 0.7);
+  z-index: 50;
+
+  animation: fade-in 600ms forwards;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-container[aria-hidden="true"] {
+  display: none;
+  animation: fade-out 600ms forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+
+  position: relative;
+  max-width: 400px;
+  color: white;
+  background-color: #242424;
+  border-radius: 1em;
+  padding: 1em 2em 2em 2em;
+}
+
+.reset-btn {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+.animals-filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 350px;
+}
+.filter-type {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.filter-type[data-filter="true"] {
+  opacity: 0.3;
+  filter: grayscale(1);
+}
+
+.filter-type img {
+  border-radius: 50%;
+  width: 48px;
+  border: 1px solid gray;
+}
+
+.filter-type img:hover {
+  border: 1px solid limegreen;
+}
+
+.zone-filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.zone-name {
+  background-color: black;
+  padding: 0.3em 1em;
+  cursor: pointer;
+  border-radius: 1em;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+.zone-name:hover {
+  border: 1px solid gray;
+}
+
+.zone-name[data-filter="true"] {
+  border: 1px solid transparent;
+  opacity: 0.25;
+}
+
+.hr-filter {
+  width: 90%;
+  opacity: 0.3;
+}
