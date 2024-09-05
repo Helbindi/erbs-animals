@@ -175,7 +175,7 @@ export const animals = [
     name: "Mutant Chicken",
     imageSrc:
       "https://firebasestorage.googleapis.com/v0/b/erbs-lore-dcb3b.appspot.com/o/Animals%2FMutantChicken.png?alt=media",
-    creditKill: 2,
+    creditKill: 1,
     creditAlly: 1,
     baseXP: 75,
     perLevelXP: 7,
@@ -188,7 +188,7 @@ export const animals = [
     name: "Mutant Bat",
     imageSrc:
       "https://firebasestorage.googleapis.com/v0/b/erbs-lore-dcb3b.appspot.com/o/Animals%2FMutantBat.png?alt=media",
-    creditKill: 4,
+    creditKill: 3,
     creditAlly: 2,
     baseXP: 194,
     perLevelXP: 22,
@@ -201,8 +201,8 @@ export const animals = [
     name: "Mutant Boar",
     imageSrc:
       "https://firebasestorage.googleapis.com/v0/b/erbs-lore-dcb3b.appspot.com/o/Animals%2FMutantBoar.png?alt=media",
-    creditKill: 4,
-    creditAlly: 3,
+    creditKill: 3,
+    creditAlly: 2,
     baseXP: 220,
     perLevelXP: 25,
     respawn: 270,
@@ -214,8 +214,8 @@ export const animals = [
     name: "Mutant Dog",
     imageSrc:
       "https://firebasestorage.googleapis.com/v0/b/erbs-lore-dcb3b.appspot.com/o/Animals%2FMutantDog.png?alt=media",
-    creditKill: 3,
-    creditAlly: 3,
+    creditKill: 2,
+    creditAlly: 2,
     baseXP: 180,
     perLevelXP: 17,
     respawn: 270,
