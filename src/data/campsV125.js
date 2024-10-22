@@ -1,4 +1,4 @@
-// PATCH NOTES 1.32 - October 10th, 2024
+// PATCH NOTES 1.25 - July 4th, 2024
 
 export const camps = {
   Archery: [
@@ -95,6 +95,25 @@ export const camps = {
       zone: "Gas Station",
     },
     {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 315,
+        y: 160,
+      },
+      zone: "Gas Station",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 386,
+        y: 246,
+      },
+      zone: "Gas Station",
+    },
+
+    {
       animalID: 5,
       size: 2,
       position: {
@@ -104,8 +123,8 @@ export const camps = {
       zone: "Gas Station",
     },
     {
-      animalID: 4,
-      size: 3,
+      animalID: 5,
+      size: 2,
       position: {
         x: 410,
         y: 265,
@@ -216,6 +235,24 @@ export const camps = {
       zone: "Police Station",
     },
     {
+      animalID: 1,
+      size: 1,
+      position: {
+        x: 632,
+        y: 375,
+      },
+      zone: "Police Station",
+    },
+    {
+      animalID: 3,
+      size: 1,
+      position: {
+        x: 588,
+        y: 259,
+      },
+      zone: "Police Station",
+    },
+    {
       animalID: 3,
       size: 1,
       position: {
@@ -244,7 +281,7 @@ export const camps = {
     },
     {
       animalID: 4,
-      size: 3,
+      size: 1,
       position: {
         x: 641,
         y: 358,
@@ -257,6 +294,15 @@ export const camps = {
       position: {
         x: 616,
         y: 253,
+      },
+      zone: "Police Station",
+    },
+    {
+      animalID: 6,
+      size: 1,
+      position: {
+        x: 587,
+        y: 315,
       },
       zone: "Police Station",
     },
@@ -275,6 +321,15 @@ export const camps = {
       animalID: 2,
       size: 1,
       position: {
+        x: 645,
+        y: 194,
+      },
+      zone: "Temple",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
         x: 748,
         y: 287,
       },
@@ -286,6 +341,15 @@ export const camps = {
       position: {
         x: 845,
         y: 340,
+      },
+      zone: "Temple",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 820,
+        y: 388,
       },
       zone: "Temple",
     },
@@ -456,6 +520,24 @@ export const camps = {
       zone: "Pond",
     },
     {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 642,
+        y: 550,
+      },
+      zone: "Pond",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 657,
+        y: 474,
+      },
+      zone: "Pond",
+    },
+    {
       animalID: 3,
       size: 1,
       position: {
@@ -521,11 +603,29 @@ export const camps = {
   ],
   Fire: [
     {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 480,
+        y: 405,
+      },
+      zone: "Fire Station",
+    },
+    {
       animalID: 3,
       size: 1,
       position: {
         x: 558,
         y: 344,
+      },
+      zone: "Fire Station",
+    },
+    {
+      animalID: 6,
+      size: 1,
+      position: {
+        x: 446,
+        y: 320,
       },
       zone: "Fire Station",
     },
@@ -547,15 +647,26 @@ export const camps = {
       },
       zone: "Fire Station",
     },
+
     {
-      animalID: 4,
-      size: 3,
+      animalID: 3,
+      size: 1,
       position: {
-        x: 460,
-        y: 330,
+        x: 477,
+        y: 373,
       },
       zone: "Fire Station",
     },
+    {
+      animalID: 4,
+      size: 2,
+      position: {
+        x: 475,
+        y: 325,
+      },
+      zone: "Fire Station",
+    },
+
     {
       animalID: 5,
       size: 2,
@@ -565,6 +676,7 @@ export const camps = {
       },
       zone: "Fire Station",
     },
+
     {
       animalID: 6,
       size: 1,
@@ -574,6 +686,7 @@ export const camps = {
       },
       zone: "Fire Station",
     },
+
     {
       animalID: 9,
       size: 3,
@@ -595,11 +708,47 @@ export const camps = {
       zone: "School",
     },
     {
+      animalID: 6,
+      size: 1,
+      position: {
+        x: 362,
+        y: 458,
+      },
+      zone: "School",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 420,
+        y: 332,
+      },
+      zone: "School",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 328,
+        y: 366,
+      },
+      zone: "School",
+    },
+    {
       animalID: 5,
       size: 2,
       position: {
         x: 318,
         y: 342,
+      },
+      zone: "School",
+    },
+    {
+      animalID: 3,
+      size: 1,
+      position: {
+        x: 370,
+        y: 325,
       },
       zone: "School",
     },
@@ -618,6 +767,15 @@ export const camps = {
       position: {
         x: 288,
         y: 341,
+      },
+      zone: "School",
+    },
+    {
+      animalID: 5,
+      size: 2,
+      position: {
+        x: 392,
+        y: 458,
       },
       zone: "School",
     },
@@ -643,7 +801,7 @@ export const camps = {
   Hotel: [
     {
       animalID: 1,
-      size: 2,
+      size: 3,
       position: {
         x: 200,
         y: 526,
@@ -652,19 +810,20 @@ export const camps = {
     },
     {
       animalID: 1,
-      size: 2,
+      size: 3,
       position: {
         x: 161,
         y: 535,
       },
       zone: "Hotel",
     },
+
     {
       animalID: 4,
       size: 3,
       position: {
-        x: 140,
-        y: 555,
+        x: 114,
+        y: 534,
       },
       zone: "Hotel",
     },
@@ -679,10 +838,19 @@ export const camps = {
     },
     {
       animalID: 4,
-      size: 3,
+      size: 2,
       position: {
         x: 233,
         y: 526,
+      },
+      zone: "Hotel",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 215,
+        y: 500,
       },
       zone: "Hotel",
     },
@@ -775,8 +943,8 @@ export const camps = {
       animalID: 6,
       size: 1,
       position: {
-        x: 115,
-        y: 715,
+        x: 88,
+        y: 593,
       },
       zone: "Beach",
     },
@@ -798,6 +966,15 @@ export const camps = {
       position: {
         x: 332,
         y: 675,
+      },
+      zone: "Forest",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 415,
+        y: 720,
       },
       zone: "Forest",
     },
@@ -843,6 +1020,15 @@ export const camps = {
       position: {
         x: 356,
         y: 611,
+      },
+      zone: "Forest",
+    },
+    {
+      animalID: 6,
+      size: 1,
+      position: {
+        x: 312,
+        y: 529,
       },
       zone: "Forest",
     },
@@ -913,7 +1099,7 @@ export const camps = {
     },
     {
       animalID: 1,
-      size: 3,
+      size: 2,
       position: {
         x: 296,
         y: 900,
@@ -921,8 +1107,17 @@ export const camps = {
       zone: "Uptown",
     },
     {
+      animalID: 1,
+      size: 2,
+      position: {
+        x: 337,
+        y: 848,
+      },
+      zone: "Uptown",
+    },
+    {
       animalID: 4,
-      size: 3,
+      size: 2,
       position: {
         x: 226,
         y: 791,
@@ -977,11 +1172,38 @@ export const camps = {
       zone: "Warehouse",
     },
     {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 439,
+        y: 939,
+      },
+      zone: "Warehouse",
+    },
+    {
       animalID: 3,
       size: 1,
       position: {
         x: 458,
         y: 958,
+      },
+      zone: "Warehouse",
+    },
+    {
+      animalID: 3,
+      size: 1,
+      position: {
+        x: 427,
+        y: 982,
+      },
+      zone: "Warehouse",
+    },
+    {
+      animalID: 3,
+      size: 1,
+      position: {
+        x: 412,
+        y: 965,
       },
       zone: "Warehouse",
     },
@@ -1042,6 +1264,15 @@ export const camps = {
       zone: "Dock",
     },
     {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 570,
+        y: 1004,
+      },
+      zone: "Dock",
+    },
+    {
       animalID: 3,
       size: 2,
       position: {
@@ -1052,7 +1283,7 @@ export const camps = {
     },
     {
       animalID: 4,
-      size: 3,
+      size: 2,
       position: {
         x: 578,
         y: 980,
@@ -1146,6 +1377,15 @@ export const camps = {
       animalID: 3,
       size: 1,
       position: {
+        x: 772,
+        y: 807,
+      },
+      zone: "Factory",
+    },
+    {
+      animalID: 3,
+      size: 1,
+      position: {
         x: 665,
         y: 913,
       },
@@ -1153,7 +1393,7 @@ export const camps = {
     },
     {
       animalID: 4,
-      size: 3,
+      size: 2,
       position: {
         x: 740,
         y: 905,
@@ -1161,8 +1401,17 @@ export const camps = {
       zone: "Factory",
     },
     {
-      animalID: 6,
+      animalID: 4,
       size: 1,
+      position: {
+        x: 796,
+        y: 829,
+      },
+      zone: "Factory",
+    },
+    {
+      animalID: 5,
+      size: 2,
       position: {
         x: 720,
         y: 979,
@@ -1199,6 +1448,15 @@ export const camps = {
   ],
   Chapel: [
     {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 600,
+        y: 841,
+      },
+      zone: "Chapel",
+    },
+    {
       animalID: 1,
       size: 1,
       position: {
@@ -1213,6 +1471,15 @@ export const camps = {
       position: {
         x: 495,
         y: 718,
+      },
+      zone: "Chapel",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 558,
+        y: 900,
       },
       zone: "Chapel",
     },
@@ -1279,6 +1546,15 @@ export const camps = {
       },
       zone: "Chapel",
     },
+    {
+      animalID: 6,
+      size: 1,
+      position: {
+        x: 455,
+        y: 769,
+      },
+      zone: "Chapel",
+    },
   ],
   Cemetery: [
     {
@@ -1303,8 +1579,26 @@ export const camps = {
       animalID: 2,
       size: 1,
       position: {
+        x: 668,
+        y: 698,
+      },
+      zone: "Cemetery",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
         x: 613,
         y: 722,
+      },
+      zone: "Cemetery",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
+        x: 565,
+        y: 660,
       },
       zone: "Cemetery",
     },
@@ -1314,6 +1608,15 @@ export const camps = {
       position: {
         x: 523,
         y: 697,
+      },
+      zone: "Cemetery",
+    },
+    {
+      animalID: 3,
+      size: 1,
+      position: {
+        x: 633,
+        y: 701,
       },
       zone: "Cemetery",
     },
@@ -1375,6 +1678,15 @@ export const camps = {
       animalID: 2,
       size: 1,
       position: {
+        x: 633,
+        y: 765,
+      },
+      zone: "Cemetery",
+    },
+    {
+      animalID: 2,
+      size: 1,
+      position: {
         x: 725,
         y: 762,
       },
@@ -1410,10 +1722,10 @@ export const camps = {
       zone: "Hospital",
     },
     {
-      animalID: 4,
-      size: 3,
+      animalID: 2,
+      size: 1,
       position: {
-        x: 765,
+        x: 752,
         y: 668,
       },
       zone: "Hospital",
